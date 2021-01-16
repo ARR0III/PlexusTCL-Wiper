@@ -1,12 +1,3 @@
-/*
-  Name:             Atora - Atomic Rain. Windows version.
-  Version:          5.61/16.01.21
-  Compiler:         TCC ver 0.9.27
-  Class:            Files shredder for Windows. Wiper.
-  What is he doing: Encrypts all files on all local drives with a cipher ARC4
-  SHA-2-256:        6d3856bcbcc37b402ea58362c60df20eddaed846d188c4a66753be267f49a3c1
-  SHA-2-256_UPX:    7e5550ff5ac4fccf8c37af025119fd8153a5e6dd19d1f4f9e8c6b5198db52371
-*/
 #include <io.h>
 #include <time.h>
 #include <stdio.h>
