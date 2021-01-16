@@ -1,0 +1,53 @@
+object Form1: TForm1
+  Left = 225
+  Top = 235
+  AlphaBlend = True
+  AlphaBlendValue = 220
+  BorderStyle = bsNone
+  ClientHeight = 308
+  ClientWidth = 578
+  Color = clBlack
+  Ctl3D = False
+  DefaultMonitor = dmDesktop
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poDefault
+  PrintScale = poNone
+  WindowState = wsMaximized
+  OnClose = FormClose
+  OnDestroy = FormDestroy
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Memo1: TMemo
+    Left = 0
+    Top = 0
+    Width = 578
+    Height = 308
+    Align = alClient
+    BevelInner = bvNone
+    BevelOuter = bvNone
+    BorderStyle = bsNone
+    Color = clBlack
+    Ctl3D = False
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clGray
+    Font.Height = -27
+    Font.Name = 'Courier'
+    Font.Style = []
+    ParentCtl3D = False
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 0
+  end
+  object Timer1: TTimer
+    Interval = 400
+    OnTimer = Timer1Timer
+    Left = 8
+    Top = 8
+  end
+end
